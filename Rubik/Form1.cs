@@ -1,3 +1,5 @@
+using CubeLiabry;
+
 namespace Rubik
 {
     public partial class Form1 : Form

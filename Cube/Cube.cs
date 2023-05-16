@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Rubik
+namespace CubeLiabry
 {
     // This class represents a Rubik's Cube.
-    class Cube
+    public class Cube
     {
         // This 2D array represents the state of the cube. Each row represents a face of the cube,
         // and each element in the row represents a sticker on that face.

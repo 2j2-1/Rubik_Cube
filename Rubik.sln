@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rubik", "Rubik\Rubik.csproj", "{904231CF-58C8-443E-BB2A-C84C80914782}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rubik", "Rubik\Rubik.csproj", "{904231CF-58C8-443E-BB2A-C84C80914782}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeTests", "CubeTests\CubeTests.csproj", "{B5F26197-569E-4929-8FDB-C31C67089924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeLibary", "Cube\CubeLibary.csproj", "{DC801515-077A-4EDE-9227-00E7F054F9F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{904231CF-58C8-443E-BB2A-C84C80914782}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{904231CF-58C8-443E-BB2A-C84C80914782}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{904231CF-58C8-443E-BB2A-C84C80914782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5F26197-569E-4929-8FDB-C31C67089924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5F26197-569E-4929-8FDB-C31C67089924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5F26197-569E-4929-8FDB-C31C67089924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5F26197-569E-4929-8FDB-C31C67089924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC801515-077A-4EDE-9227-00E7F054F9F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC801515-077A-4EDE-9227-00E7F054F9F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC801515-077A-4EDE-9227-00E7F054F9F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC801515-077A-4EDE-9227-00E7F054F9F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
