@@ -49,6 +49,17 @@ namespace CubeLiabry
             { 6,7,8,6,7,8,6,7,8,6,7,8 } 
         };
 
+        readonly string cubeRoationNoation = "UuLlFfRrBbDd";
+
+        //This method converts notation to rotation 
+        public void NotationToRotation(char notation)
+        {
+            int index = cubeRoationNoation.IndexOf(notation);
+            int faceIndex = index/2;
+            int offsetIndex = ((index % 2) * 2) + 1;
+            RotateFace(faceIndex, offsetIndex);
+        }
+
         // This method rotates a given face of the cube around a center point by a given offset.
         public void RotateFace(int face, int offset = 3)
         {
